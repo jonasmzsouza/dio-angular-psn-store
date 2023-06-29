@@ -4,19 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
-import { HomeModule } from './pages/home/home.module';
-import { GameModule } from './pages/game/game.module';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { GamePageComponent } from './pages/game-page/game-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomePageComponent,
+    GamePageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-		SharedModule,
-		HomeModule,
-		GameModule
+		SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
