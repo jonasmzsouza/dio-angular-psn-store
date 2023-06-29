@@ -7,6 +7,8 @@ import { SharedModule } from './shared/shared.module';
 import { HomePageModule } from './pages/home-page/home-page.module';
 import { GamePageModule } from './pages/game-page/game-page.module';
 
+import {register} from 'swiper/element/bundle';
+register();
 @NgModule({
   declarations: [
     AppComponent

@@ -10,12 +10,12 @@ import { HomePageComponent } from './home-page.component';
 @NgModule({
   declarations: [
 		PreviewComponent,
-		TreadmillComponent,
-		GameCardComponent,
 		HomePageComponent
 	],
   imports: [
-    CommonModule
+		CommonModule,
+		GameCardComponent,
+		TreadmillComponent
   ],
 	exports: [
 		HomePageComponent
