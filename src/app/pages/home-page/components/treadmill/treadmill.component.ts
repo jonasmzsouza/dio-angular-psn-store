@@ -2,6 +2,7 @@ import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit } from '@angular/core';
 import { SwiperOptions } from 'swiper';
 import { SwiperDirective } from '../../directives/swiper.directive';
 import { GameCardComponent } from '../game-card/game-card.component';
+import { ButtonComponent } from '../button/button.component';
 
 
 @Component({
@@ -11,7 +12,8 @@ import { GameCardComponent } from '../game-card/game-card.component';
 	standalone: true,
 	imports: [
 		SwiperDirective,
-		GameCardComponent
+		GameCardComponent,
+		ButtonComponent
 	],
 	schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

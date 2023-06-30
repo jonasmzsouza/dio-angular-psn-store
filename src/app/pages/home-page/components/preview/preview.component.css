@@ -18,6 +18,11 @@
 	display: none;
 }
 
+.preview__bottom {
+	margin-top: 20px;
+	text-align: center;
+}
+
 @media (min-width: 576px) {
 	.preview__container {
 		padding-left: 25px;
@@ -52,6 +57,10 @@
 	.preview__item:nth-child(n) {
 		display: flex;
 		width: 25%;
+	}
+
+	.preview__bottom {
+		display: none;
 	}
 }
 

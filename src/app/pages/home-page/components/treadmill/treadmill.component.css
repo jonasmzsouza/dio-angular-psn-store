@@ -1,5 +1,5 @@
 .treadmill__container {
-	padding: 2rem 0;
+	padding: 30px 10px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -83,6 +83,11 @@
 }
 
 @media (min-width: 576px) {
+	.treadmill__container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
 	.treadmill__title h1 {
 		font-size: 1.4rem;
 	}
@@ -90,44 +95,44 @@
 
 @media (min-width: 768px) {
 	.treadmill__container {
-		padding: 3rem 0;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 }
 
 @media (min-width: 992px) {
+	.treadmill__container {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
 	.treadmill__link .link__icon {
 		display: none;
 	}
 
 	.treadmill__link .link__text {
 		display: block;
-		padding: 10px 12px;
-		color: #0068bd;
-		font-size: 1rem;
-		font-weight: bold;
-		text-decoration: none;
-		letter-spacing: 0.5px;
-	}
-
-	.treadmill__link .link__text:hover {
-		background-color: #f2f2f2;
-		color: #004c8a;
-		border-radius: 30px;
 	}
 }
 
 @media (min-width: 1200px) {
+	.treadmill__container {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
 	.treadmill__title h1 {
 		font-size: 1.5rem;
 	}
 }
 
 @media (min-width: 1400px) {
-	.treadmill__title h1 {
-		font-size: 2rem;
+	.treadmill__container {
+		padding-left: 90px;
+		padding-right: 90px;
 	}
 
-	.treadmill__link .link__text {
-		font-size: 1.1rem;
+	.treadmill__title h1 {
+		font-size: 2rem;
 	}
 }
