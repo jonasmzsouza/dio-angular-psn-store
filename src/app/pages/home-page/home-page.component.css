@@ -1,5 +1,5 @@
 .home-page__container {
-	padding: 0 5px;
+	padding: 0 10px;
 }
 
 @media (min-width: 576px) {
@@ -22,12 +22,12 @@
 
 @media (min-width: 1200px) {
 	.home-page__container {
-		margin: 0 35px;
+		margin: 0 40px;
 	}
 }
 
 @media (min-width: 1400px) {
 	.home-page__container {
-		margin: 0 70px;
+		margin: 0 80px;
 	}
 }

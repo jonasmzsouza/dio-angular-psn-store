@@ -20,7 +20,7 @@ export class TreadmillComponent implements OnInit {
 	public config: SwiperOptions = {
     slidesPerView: 2,
 		slidesPerGroup: 2,
-		spaceBetween: 5,
+		spaceBetween: 1,
 		centeredSlides: false,
 		navigation: {
 					nextEl: '.swiper-button-next',
