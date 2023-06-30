@@ -1,0 +1,33 @@
+.home-page__container {
+	padding: 0 5px;
+}
+
+@media (min-width: 576px) {
+	.home-page__container {
+		margin: 0 15px;
+	}
+}
+
+@media (min-width: 768px) {
+	.home-page__container {
+		margin: 0 20px;
+	}
+}
+
+@media (min-width: 992px) {
+	.home-page__container {
+		margin: 0 25px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.home-page__container {
+		margin: 0 35px;
+	}
+}
+
+@media (min-width: 1400px) {
+	.home-page__container {
+		margin: 0 70px;
+	}
+}
