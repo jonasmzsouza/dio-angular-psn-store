@@ -1,0 +1,9 @@
+.home-page__container {
+	margin-top: 144px;
+}
+
+@media (min-width: 768px) {
+	.home-page__container {
+		margin-top: 80px;
+	}
+}
