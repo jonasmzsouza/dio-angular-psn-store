@@ -1,7 +1,7 @@
 <div class="treadmill__container">
 	<div class="treadmill__top">
 		<div class="treadmill__title">
-			<h1>Título</h1>
+			<h1>{{ title }}</h1>
 		</div>
 		<div class="treadmill__link">
 			<app-button class="link__text"></app-button>
@@ -20,35 +20,8 @@
 	</div>
 	<div class="treadmill__swiper">
 		<swiper-container appSwiper [config]="config">
-			<swiper-slide>
-				<app-game-card></app-game-card>
-			</swiper-slide>
-			<swiper-slide>
-				<app-game-card></app-game-card>
-			</swiper-slide>
-			<swiper-slide>
-				<app-game-card></app-game-card>
-			</swiper-slide>
-			<swiper-slide>
-				<app-game-card></app-game-card>
-			</swiper-slide>
-			<swiper-slide>
-				<app-game-card></app-game-card>
-			</swiper-slide>
-			<swiper-slide>
-				<app-game-card></app-game-card>
-			</swiper-slide>
-			<swiper-slide>
-				<app-game-card></app-game-card>
-			</swiper-slide>
-			<swiper-slide>
-				<app-game-card></app-game-card>
-			</swiper-slide>
-			<swiper-slide>
-				<app-game-card></app-game-card>
-			</swiper-slide>
-			<swiper-slide>
-				<app-game-card></app-game-card>
+			<swiper-slide *ngFor="let game of games">
+				<app-game-card [game]="game"></app-game-card>
 			</swiper-slide>
 		</swiper-container>
 	</div>

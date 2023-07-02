@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Game } from 'src/app/shared/models/game.model';
 
 @Component({
-  selector: 'app-preview',
-  templateUrl: './preview.component.html',
-  styleUrls: ['./preview.component.css']
+	selector: 'app-preview',
+	templateUrl: './preview.component.html',
+	styleUrls: ['./preview.component.css'],
 })
 export class PreviewComponent implements OnInit {
+	@Input()
+	games: Game[] = [];
 
-  constructor() { }
+	isEnableBody: boolean = false;
 
-  ngOnInit(): void {
-  }
+	constructor() {}
 
+	ngOnInit(): void {}
 }

@@ -1,22 +1,23 @@
 <div class="game-card__container">
 	<div class="game-card__cover">
-		<img
-			src="https://image.api.playstation.com/vulcan/ap/rnd/202306/1301/98af148cb3f2469d4268eb15b235c255eeeec1757eda1fd6.png"
-			alt=""
-		/>
-		<div class="game-card__cover__tags">
-			<span>PS5</span>
-		</div>
+		<img src="{{ game.imgCoverUrl }}" alt="{{ game.name }}" />
+		<ng-template [ngIf]="isEnableBody">
+			<div class="game-card__cover__platforms">
+				<span *ngFor="let platform of game.platforms">{{ platform.name }}</span>
+			</div>
+		</ng-template>
 	</div>
-	<div class="game-card__body">
-		<div class="game-card__body__type">
-			<span>PRE-ORDER</span>
+	<ng-template [ngIf]="isEnableBody">
+		<div class="game-card__body">
+			<div class="game-card__body__type" *ngIf="game.type == 'PRE-ORDER'">
+				<span>{{ game.type }}</span>
+			</div>
+			<div class="game-card__body__title">
+				<h2>{{ game.name }}</h2>
+			</div>
+			<div class="game-card__body__price" *ngIf="game.type == 'PRE-ORDER'">
+				<span>{{ game.price }}</span>
+			</div>
 		</div>
-		<div class="game-card__body__title">
-			<h2>Marvel's Spider-Man 2 Edição Digital Deluxe</h2>
-		</div>
-		<div class="game-card__body__price">
-			<span>R$399,50</span>
-		</div>
-	</div>
+	</ng-template>
 </div>

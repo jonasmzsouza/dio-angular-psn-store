@@ -1,25 +1,7 @@
 <div class="preview__container">
 	<div class="preview__items">
-		<div class="preview__item">
-			<app-game-card></app-game-card>
-		</div>
-		<div class="preview__item">
-			<app-game-card></app-game-card>
-		</div>
-		<div class="preview__item">
-			<app-game-card></app-game-card>
-		</div>
-		<div class="preview__item">
-			<app-game-card></app-game-card>
-		</div>
-		<div class="preview__item">
-			<app-game-card></app-game-card>
-		</div>
-		<div class="preview__item">
-			<app-game-card></app-game-card>
-		</div>
-		<div class="preview__item">
-			<app-game-card></app-game-card>
+		<div class="preview__item" *ngFor="let game of games">
+			<app-game-card [isEnableBody]="isEnableBody" [game]="game"></app-game-card>
 		</div>
 	</div>
 	<div class="preview__bottom">
