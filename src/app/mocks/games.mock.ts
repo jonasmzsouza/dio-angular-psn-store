@@ -239,7 +239,7 @@ export const GamesMock: Game[] = [
 		compatibilities: [
 			{
 				id: 1,
-				name: 'Jogo online necessário',
+				name: '1 jogador',
 			},
 			{
 				id: 2,
