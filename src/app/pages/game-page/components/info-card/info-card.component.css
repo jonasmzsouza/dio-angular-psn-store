@@ -1,0 +1,185 @@
+.info-card__container {
+	width: 100%;
+	padding: 25px 20px;
+	background-color: rgba(27, 27, 31, 0.9);
+	color: white;
+}
+
+.info-card__title h1 {
+	margin-bottom: 10px;
+	font-weight: 400;
+	font-size: 2rem;
+}
+
+.info-card__distributor {
+	margin-bottom: 10px;
+}
+
+.info-card__distributor span {
+	font-size: 0.65rem;
+	font-weight: 700;
+}
+
+.info-card__platforms {
+	margin-bottom: 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.info-card__platforms span {
+	margin-right: 3px;
+	padding: 0 5px;
+	background-color: #232323c5;
+	color: white;
+	font-size: 0.55rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 1px solid white;
+}
+
+.info-card__price {
+	margin-bottom: 20px;
+}
+
+.info-card__price span {
+	font-size: 1.3rem;
+	font-weight: 300;
+}
+
+.info-card__buttons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info-card__buttons button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.info-card__button-cart {
+	flex: 1;
+	padding: 0 20px;
+	background: #d63d00;
+	font-size: 0.9rem;
+	font-weight: bold;
+	border-radius: 30px;
+}
+
+.info-card__button-cart:hover {
+	filter: brightness(0.8);
+}
+
+.info-card__button-like {
+	margin-left: 15px;
+	padding: 10px;
+	background: #313236;
+	border-radius: 50%;
+}
+
+.info-card__button-like:hover {
+	background: #3f4045;
+}
+
+.info-card__button-like svg {
+	height: 20px;
+	width: 20px;
+}
+
+@media (min-width: 768px) {
+	.info-card__container {
+		margin: 0 25px;
+		padding: 15px 30px;
+	}
+
+	.info-card__title h1 {
+		font-size: 2.25rem;
+	}
+
+	.info-card__price span {
+		font-size: 1.5rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.info-card__container {
+		margin: 0 45px;
+	}
+
+	.info-card__platforms span {
+		font-size: 0.65rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.info-card__container {
+		margin: 0;
+		padding: 20px 40px;
+	}
+
+	.info-card__title h1 {
+		font-size: 2.5rem;
+	}
+
+	.info-card__platforms span {
+		font-size: 0.6rem;
+	}
+
+	.info-card__price span {
+		font-size: 1.6rem;
+	}
+}
+
+@media (min-width: 1400px) {
+	.info-card__container {
+		padding: 25px 50px;
+	}
+
+	.info-card__title h1 {
+		font-size: 3rem;
+	}
+
+	.info-card__distributor span {
+		font-size: 0.75rem;
+	}
+
+	.info-card__platforms {
+		margin-bottom: 30px;
+	}
+
+	.info-card__platforms span {
+		font-size: 0.7rem;
+	}
+
+	.info-card__price {
+		margin-bottom: 30px;
+	}
+
+	.info-card__price span {
+		font-size: 2rem;
+	}
+
+	.info-card__button-cart {
+		font-size: 1rem;
+	}
+
+	.info-card__button-like svg {
+		height: 25px;
+		width: 25px;
+	}
+}
+
+@media (min-width: 1920px) {
+	.info-card__button-cart {
+		padding: 15px 20px;
+		font-size: 1.2rem;
+	}
+
+	.info-card__button-like {
+		padding: 15px;
+	}
+}

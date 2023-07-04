@@ -1,9 +1,59 @@
 .game-page__container {
+	position: relative;
 	margin-top: 144px;
+	background-color: #090a0a;
+}
+
+.game-page__background,
+.game-page__info-section {
+	width: 100%;
+}
+
+.game-page__info-section {
+	position: relative;
+	padding: 0 13px;
+	display: flex;
+	flex-direction: column;
+}
+
+.game-page__info-card,
+.game-page__info-compatibilities {
+	width: 100%;
 }
 
 @media (min-width: 768px) {
 	.game-page__container {
 		margin-top: 80px;
+	}
+
+	.game-page__info-section {
+		flex-direction: row;
+		padding: 0 35px;
+	}
+
+	.game-page__info-card {
+		width: 50%;
+	}
+
+	.game-page__info-compatibilities {
+		flex: 1;
+	}
+}
+
+@media (min-width: 992px) {
+	.game-page__info-card {
+		width: 40%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.game-page__info-card {
+		width: 32%;
+	}
+}
+
+@media (min-width: 1400px) {
+	.game-page__info-card {
+		width: 620px;
 	}
 }
