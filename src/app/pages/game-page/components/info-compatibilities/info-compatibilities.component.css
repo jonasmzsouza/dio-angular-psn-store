@@ -1,8 +1,8 @@
 .info-compatibilities__container {
-	padding: 30px 20px 0 20px;
+	margin-top: 30px;
+	padding: 0 20px;
 	display: flex;
 	flex-wrap: wrap;
-	color: white;
 }
 
 .info-compatibilities__compatibility {
@@ -31,13 +31,15 @@
 
 @media (min-width: 768px) {
 	.info-compatibilities__container {
-		padding: 40px;
+		margin: 0 25px;
+		padding: 0 30px;
 	}
 }
 
 @media (min-width: 992px) {
 	.info-compatibilities__container {
-		padding: 40px 60px;
+		margin: 0 45px;
+		padding: 0 50px;
 	}
 
 	.info-compatibilities__compatibility {
@@ -51,5 +53,11 @@
 
 	.compatibility__nome {
 		font-size: 0.9rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.info-compatibilities__container {
+		padding: 0 50px 50px;
 	}
 }

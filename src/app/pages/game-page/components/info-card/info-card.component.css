@@ -1,8 +1,10 @@
 .info-card__container {
 	width: 100%;
 	padding: 25px 20px;
-	background-color: rgba(27, 27, 31, 0.9);
-	color: white;
+	/* position: relative;
+	left: 0; */
+	/* top: -50px; */
+	background-color: rgba(27, 27, 31, 0.95);
 }
 
 .info-card__title h1 {
@@ -92,7 +94,8 @@
 
 @media (min-width: 768px) {
 	.info-card__container {
-		margin: 0 25px;
+		/* top: -150px;
+		margin-left: 25px; */
 		padding: 15px 30px;
 	}
 
@@ -107,7 +110,7 @@
 
 @media (min-width: 992px) {
 	.info-card__container {
-		margin: 0 45px;
+		margin-left: 45px;
 	}
 
 	.info-card__platforms span {

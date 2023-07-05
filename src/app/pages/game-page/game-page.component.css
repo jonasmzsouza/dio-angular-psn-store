@@ -2,6 +2,7 @@
 	position: relative;
 	margin-top: 144px;
 	background-color: #090a0a;
+	color: white;
 }
 
 .game-page__background,
@@ -10,10 +11,11 @@
 }
 
 .game-page__info-section {
-	position: relative;
-	padding: 0 13px;
+	position: absolute;
+	padding: 0 15px;
 	display: flex;
 	flex-direction: column;
+	top: calc(270px - 50px);
 }
 
 .game-page__info-card,
@@ -29,14 +31,18 @@
 	.game-page__info-section {
 		flex-direction: row;
 		padding: 0 35px;
+		top: calc(50vh - 150px);
 	}
 
 	.game-page__info-card {
 		width: 50%;
+		margin-left: 25px;
 	}
 
 	.game-page__info-compatibilities {
 		flex: 1;
+		display: flex;
+		align-items: flex-end;
 	}
 }
 
