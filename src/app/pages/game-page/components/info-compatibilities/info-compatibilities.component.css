@@ -1,7 +1,10 @@
 .info-compatibilities__container {
 	margin-top: 30px;
 	padding: 0 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 
@@ -9,14 +12,24 @@
 	width: 100%;
 	margin-right: 40px;
 	margin-bottom: 10px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 
 .compatibility__icon {
 	margin-right: 10px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 
