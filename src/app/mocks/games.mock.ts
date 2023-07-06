@@ -14,6 +14,8 @@ export const GamesMock: Game[] = [
 			'Um épico mundo de fantasia sombria onde o destino da terra é decidido pelos poderosos Eikons e os Dominantes que os controlam. Essa é a história de Clive Rosfield, um guerreiro que recebeu o título de "Primeiro Escudo de Rosaria" e jurou proteger seu irmão mais novo, Joshua, o Dominante da Fênix. Em pouco tempo, Clive se envolverá em um grande tragédia e fará um juramento de vingança contra o Eikon Ifrit, uma misteriosa entidade que traz calamidade por onde passa.',
 		release: '22/06/2023',
 		distributor: 'SQUARE ENIX CO. LTD.',
+		rights:
+			'© 2023 SQUARE ENIX CO., LTD. All Rights Reserved. LOGO ILLUSTRATION:©2020 YOSHITAKA AMANO FINAL FANTASY, SQUARE ENIX and their respective logos are trademarks or registered trademarks of Square Enix Holdings Co., Ltd.',
 		isPreview: true,
 		genres: [
 			{
@@ -55,6 +57,8 @@ export const GamesMock: Game[] = [
 			'Diablo® IV é a experiência de RPG de ação de nova geração com infinitos males para matar, inúmeras habilidades para dominar, masmorras horripilantes e tesouros lendários. Embarque na campanha solo ou com amigos, conhecendo personagens memoráveis em belos cenários sombrios e com uma história envolvente, ou desbrave a vastidão da fase final de jogo e do mundo compartilhado, onde os jogadores se encontram nos vilarejos para negociar, formam equipes para enfrentar Chefes do Mundo ou entram em áreas de PvP para testar suas habilidades contra outros jogadores - sem a necessidade de lobbies - com jogo e progressão multiplataforma em todas as plataformas disponíveis.',
 		release: '05/06/2023',
 		distributor: 'Blizzard Entertainment, Inc.',
+		rights:
+			'© 2023 Blizzard Entertainment, Inc., Diablo, Diablo Immortal, World of Warcraft e Blizzard Entertainment são marcas comerciais ou marcas registradas da Blizzard Entertainment, Inc. nos EUA e/ou em outros países. Todos os direitos reservados.',
 		isPreview: false,
 		genres: [
 			{
@@ -96,6 +100,8 @@ export const GamesMock: Game[] = [
 			'Mostre que você está à altura desta ocasião e libere todo o seu potencial no NBA 2K23. Enfrente os melhores jogadores do mundo e exiba seu talento no MyCAREER. Coloque os All-Stars atuais para jogar com lendas atemporais no MyTEAM. Construa sua própria dinastia no MyGM ou comande a NBA para uma nova direção no MyLEAGUE. Encare equipes da NBA ou WNBA em JOGAR AGORA e experimente uma jogabilidade realista. Como você vai Atender ao Chamado?',
 		release: '06/06/2023',
 		distributor: '2K',
+		rights:
+			'© 2005-2022 Take-Two Interactive Software, Inc. and its subsidiaries. 2K, the 2K logo, and Take-Two Interactive Software are all trademarks and/or registered trademarks of Take-Two Interactive Software, Inc. The NBA and NBA member team identifications are the intellectual property of NBA Properties, Inc. and the respective NBA member teams. © 2022 NBA Properties, Inc. All Rights Reserved. Officially licensed product of the National Basketball Players Association. All other trademarks are property of their respective owners.',
 		isPreview: true,
 		genres: [
 			{
@@ -137,6 +143,8 @@ export const GamesMock: Game[] = [
 			'O novo capítulo do modo de história "Ponto de Frenagem" oferece alta velocidade e rivalidades acirradas. Dispute roda a roda nos novos circuitos de Las Vegas e Catar e consiga recompensas e melhorias no F1 World. As novas bandeiras vermelhas adicionam um fator estratégico autêntico e a possibilidade de disputar 35% da distância total das corridas dá ainda mais emoção ao espetáculo. Pilote os carros atualizados da temporada 2023 com seus 20 pilotos e 10 equipes oficiais da F1. Crie a escuderia dos seus sonhos e persiga a glória no modo carreira do Minha Equipe, compita em tela dividida ou no multiplayer crossplay e interaja com a comunidade nas novas Ligas da Racenet.',
 		release: '16/06/2023',
 		distributor: 'Electronic Arts Inc',
+		rights:
+			'Jogo F1® 23 - um produto oficial do FIA Formula One World Championship. © 2023 Electronic Arts Inc. EA, EA SPORTS, o logotipo EA SPORTS, Codemasters e o logotipo Codemasters são marcas comerciais da Electronic Arts Inc.',
 		isPreview: false,
 		genres: [
 			{
@@ -178,6 +186,8 @@ export const GamesMock: Game[] = [
 			'Elenco diverso de 18 lutadores. Jogue com mestres lendários e novos favoritos dos fãs como Ryu, Chun-Li, Luke, Jamie, Kimberly e mais nesta mais nova edição, com cada personagens trazendo um novo visual incrível e empolgantes especiais cinemáticos.',
 		release: '02/06/2023',
 		distributor: 'Capcom U.S.A., Inc.',
+		rights:
+			'©CAPCOM CO., LTD. 2023 ALL RIGHTS RESERVED. STREET FIGHTER is a trademark and/or registered trademark of CAPCOM CO., LTD. and/or its subsidiaries in the U.S. and/or other countries.',
 		isPreview: true,
 		genres: [
 			{
@@ -219,6 +229,8 @@ export const GamesMock: Game[] = [
 			'O Crash Team Rumble™ leva o Crash Bandicoot™ em uma direção novinha em folha, colocando os icônicos heróis e vilões da série em uma competição em equipes 4v4. Jogadores vão se enfrentar em vários e perigosos mapas enquanto ambas as equipes correm para ser a primeira a coletar e acumular frutas Wumpa suficientes para garantir a vitória! Deixe sua marca como herói, ou banque o seu vilão interior nesse elenco selvagem e iN.Sano de personagens, cada qual com suas habilidades e competências únicas. O trabalho em equipe é fundamental para cada partida, já que os jogadores devem trabalhar juntos para combater o time adversário, defender seu próprio Banco Wumpa e capturar pontos específicos ao redor do mapa para impulsionar sua pontuação.',
 		release: '20/06/2023',
 		distributor: 'Activision',
+		rights:
+			'© 2023 Activision Publishing, Inc. ACTIVISION, CRASH TEAM RUMBLE, CRASH BANDICOOT e CRASH são marcas registradas da Activision Publishing, Inc. Todas as demais marcas registradas e nomes comerciais são propriedade dos seus respetivos donos.',
 		isPreview: true,
 		genres: [
 			{
@@ -260,6 +272,8 @@ export const GamesMock: Game[] = [
 			'Acelere, ultrapasse os adversários e cruze a linha de chegada: viva o sonho de ser o próximo campeão com o novo MotoGP™23, mais eletrizante e desafiador do que nunca! Dispute nas três categorias oficiais do campeonato, MotoGP™, Moto2™ e Moto3™, encarne seu piloto favorito e corra para a pista para viver a adrenalina da temporada de 2023.',
 		release: '08/06/2023',
 		distributor: 'Milestone',
+		rights:
+			'MotoGP™23 © 2023 Published and Developed by Milestone S.r.l. All rights reserved. Copyright © 2023 Dorna Sports S.L. - All rights reserved.',
 		isPreview: false,
 		genres: [
 			{
@@ -305,6 +319,8 @@ export const GamesMock: Game[] = [
 			'A série que deixou uma marca nos jogos de horror psicológico em primeira pessoa com narrativa retorna para contar sua arrepiante história final em Layers of Fear. O encerramento da série é a forma definitiva de mergulhar nessa franquia aclamada pela crítica, pois traz Layers of Fear e Layers of Fear 2, bem como todas as DLCs (incluindo a nova DLC “The Final Note”, que dará uma nova perspectiva para a história de Layers of Fear) e a história inédita d´O Escritor, que vai amarrar tudo. Criado com Unreal Engine 5, Layers of Fear suporta Ray Tracing, HDR e resolução 4K para deixar os impressionantes visuais, e sua assustadora experiência, o mais realista e imersivo possível.',
 		release: '15/06/2023',
 		distributor: 'Bloober Team',
+		rights:
+		'“Layers of Fear” and all logos, characters, names, and related indicia are TM & © 2022 Bloober Team S.A. All Rights Reserved. “Layers of Fear” (2023) game co-developed by Bloober Team S.A. and Anshar Studios S.A. Bloober Team is a registered trademark of Bloober Team S.A. (Inc.) in US and/or other countries. “Layers of Fear” (2023) game published and distributed by Bloober Team S.A. All rights reserved."Layers of Fear" (2023) uses the Unreal® Engine. Unreal® is a trademark or registered trademark of Epic Games, Inc. in the United States of America and elsewhere. Unreal® Engine, ©1998 – 2022, Epic Games, Inc. All rights reserved. All other copyrights and trademarks are the property of their respective owners. All rights reserved. Unless otherwise indicated, the completed “Layers of Fear” (2023) game is the property of Bloober Team S.A. Reproduction, modification, storage in a retrieval system or retransmission, in any form or by any means, electronic, mechanical or otherwise, for any purpose, is strictly prohibited without prior written permission.',
 		isPreview: false,
 		genres: [
 			{
@@ -342,6 +358,8 @@ export const GamesMock: Game[] = [
 			'Os Spiders Peter Parker e Miles Morales vão testar a força que têm, com e sem a máscara, enquanto lutam para salvar a cidade, um ao outro e as pessoas que amam do monstruoso Venom e de uma perigosa e nova ameaça: os simbiontes.',
 		release: '20/10/2023',
 		distributor: 'Sony Interactive Entertainment',
+		rights:
+		'©2023 MARVEL. ©2023 Sony Interactive Entertainment LLC. Desenvolvido por Insomniac Games, Inc.',
 		isPreview: true,
 		genres: [
 			{
@@ -379,6 +397,8 @@ export const GamesMock: Game[] = [
 			'Descubra um Universo renascido de Mortal Kombat criado pelo Deus do Fogo Liu Kang. Mortal Kombat 1 inaugura uma nova era da franquia icônica com um novo sistema de luta, modos de jogo e fatalities! A Edição Premium inclui Pacote de Kombate, 1 semana de acesso antecipado aos personagens DLC e 1250 Kristais do Dragão (moeda de troca do jogo).',
 		release: '14/09/2023',
 		distributor: 'Warner Bros. Interactive',
+		rights:
+		'MORTAL KOMBAT 1 Software © 2023 Warner Bros. Entertainment Inc. Developed by NetherRealm Studios. All other trademarks and copyrights are the property of their respective owners. All rights reserved. NETHERREALM STUDIOS LOGO, MORTAL KOMBAT, THE DRAGON LOGO, and all related characters and elements are trademarks of and © 2023 Warner Bros. Entertainment Inc. WARNER BROS. GAMES LOGO, WARNER BROS. INTERACTIVE LOGO, WB SHIELD: ™ & © Warner Bros. Entertainment Inc. (s23)',
 		isPreview: true,
 		genres: [
 			{
@@ -416,6 +436,8 @@ export const GamesMock: Game[] = [
 			'Phantom Liberty é uma nova aventura e thriller de espionagem para o mundo aberto de ação e aventura do RPG Cyberpunk 2077. Quando a nave espacial da presidente dos Novos Estados Unidos da América é abatida sobre o distrito mais mortífero de Night City, só há uma pessoa que a pode salvar: tu. Torna-te V, um ciber-mercenário, e mergulha numa rede de espionagem e intriga política, desvendando uma história que interliga os mais altos escalões de poder e o mundo brutal de mercenários clandestinos.',
 		release: '26/09/2023',
 		distributor: 'CD PROJEKT SA',
+		rights:
+		'© 2023 CD PROJEKT S.A. All rights reserved. CD PROJEKT, Cyberpunk, Cyberpunk 2077, Phantom Liberty and their respective logos are registered and/or unregistered trademarks of CD PROJEKT S.A.',
 		isPreview: false,
 		genres: [
 			{
@@ -457,6 +479,8 @@ export const GamesMock: Game[] = [
 			'REMNANT II é a continuação do grande sucesso de vendas REMNANT: FROM THE ASHES. Agora, os sobreviventes da humanidade têm que enfrentar novas e mortais criaturas, além de chefes quase divinos em mundos aterrorizantes. Jogue por conta própria ou em modo cooperativo com mais dois amigos e explore as profundezas do desconhecido para impedir que o mal destrua a própria realidade. Os jogadores terão que contar com suas habilidades e com as da sua equipe para superar os desafios mais difíceis e evitar a extinção da humanidade.',
 		release: '21/07/2023',
 		distributor: 'Gearbox Publishing',
+		rights:
+		'©2019 - 2023 Gunfire Games, LLC. Published by Gearbox Publishing. The Gearbox Publishing logo is a trademark of Gearbox Enterprises, LLC. All brands, product names and logos are trademarks or registered trademarks of their respective owners. All rights reserved.',
 		isPreview: false,
 		genres: [
 			{
@@ -502,6 +526,8 @@ export const GamesMock: Game[] = [
 			'Descobre a história de Basim, um astuto ladrão de rua que busca respostas e justiça nas ruas movimentadas da Bagdade do século IX. Torna-te um mortífero Mestre Assassino e muda o seu destino de formas nunca imaginadas.',
 		release: '12/10/2023',
 		distributor: 'Ubisoft Entertainment',
+		rights:
+		"© 2023 Ubisoft Entertainment. All Rights Reserved. Assassin's Creed, Ubisoft, and the Ubisoft logo are registered or unregistered trademarks of Ubisoft Entertainment in the US and/or other countries.",
 		isPreview: true,
 		genres: [
 			{
@@ -543,6 +569,8 @@ export const GamesMock: Game[] = [
 			'Erga uma cidade do chão e a transforme em uma metrópole próspera que só você é capaz de imaginar. Você nunca construiu nessa escala. Com uma simulação profunda e uma economia viva, Cities: Skylines II é a construção de mundos sem limites.',
 		release: '24/10/2023',
 		distributor: 'Paradox Interactive',
+		rights:
+		'©2023 and published by Paradox Interactive AB, CITIES: SKYLINES II and PARADOX INTERACTIVE are trademarks and/or registered trademarks of Paradox Interactive AB in Europe, the U.S., and other countries.',
 		isPreview: false,
 		genres: [
 			{
@@ -580,6 +608,8 @@ export const GamesMock: Game[] = [
 			'The Crew Motorfest tem como cenário um dos lugares mais impressionantes do planeta, a ilha de O’ahu, no Havaí. Dispute corridas de rua em alta velocidade pela agitada cidade de Honolulu, teste suas habilidades de pilotagem fora da estrada pelas encostas de um vulcão ou aperfeiçoe as curvas nas pistas.',
 		release: '14/09/2023',
 		distributor: 'Ubisoft Entertainment',
+		rights:
+		'© 2023 Ubisoft Entertainment. Todos os direitos reservados. The Crew, Ubisoft e o logotipo da Ubisoft são marcas registradas ou não registradas da Ubisoft Entertainment nos Estados Unidos e/ou em outros países.',
 		isPreview: false,
 		genres: [
 			{
@@ -617,6 +647,8 @@ export const GamesMock: Game[] = [
 			"Avatar: Frontiers of Pandora™ é um jogo de ação e aventura em primeira pessoa ambientado na Fronteira Ocidental. Raptado pela RDA, você, que é um Na'vi, foi moldado para servir aos seus interesses. Após quinze anos, você é libertado, mas se sente um estranho em seu próprio lar. Reconecte-se ao seu legado perdido, descubra o significado de ser Na'vi e junte-se a outros clãs para proteger Pandora.",
 		release: '07/12/2023',
 		distributor: 'Ubisoft Entertainment',
+		rights:
+		'Avatar: Frontiers of Pandora © 2023 20th Century Studios. Software de jogo, exceto elementos da 20th Century Studios: © 2023 Ubisoft Entertainment. Todos os direitos reservados. Avatar: Frontiers of Pandora e o logo da 20th Century Studios são marcas registradas da 20th Century Studios. Licenciado para a Ubisoft Entertainment pela 20th Century Studios. Ubisoft e o logotipo Ubisoft são marcas comerciais registradas ou não registradas de Ubisoft Entertainment nos EUA e/ou outros países.',
 		isPreview: true,
 		genres: [
 			{

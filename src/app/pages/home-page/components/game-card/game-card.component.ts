@@ -22,6 +22,7 @@ export class GameCardComponent implements OnInit {
 		shortDescription: '',
 		release: '',
 		distributor: '',
+		rights: '',
 		isPreview: false,
 		genres: [
 			{

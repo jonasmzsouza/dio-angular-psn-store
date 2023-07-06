@@ -8,6 +8,7 @@ export type Game = {
 	shortDescription: string;
 	release: string,
 	distributor: string;
+	rights: string;
 	isPreview: boolean;
 	genres: {
 		id: number;
