@@ -1,0 +1,125 @@
+.info-resume__container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.info-resume__section-title h2 {
+	margin: 40px 20px 60px 20px;
+	font-size: 2rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+.info-resume__description {
+	margin-bottom: 50px;
+	padding: 20px;
+	background-color: #1E1F23;
+	font-size: 0.9rem;
+	color: #B2B2B2;
+}
+
+.info-resume__specifications-license {
+	display: flex;
+	flex-direction: column;
+}
+
+.info-resume__specifications {
+	margin-bottom: 50px;
+	width: 100%;
+	font-size: 0.8rem;
+}
+
+.specifications__list {
+	padding: 7px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.specifications__list dt,
+.specifications__list dd {
+	padding: 10px;
+	width: 50%;
+}
+
+.specifications__list dd {
+	font-weight: 700;
+}
+
+.info-resume__license {
+	margin-bottom: 50px;
+	padding: 10px;
+	font-size: 0.8rem;
+}
+
+.info-resume__rights {
+	margin-bottom: 60px;
+	font-size: 0.9rem;
+	text-align: center;
+}
+
+@media (min-width: 576px) {
+
+	.info-resume__description,
+	.info-resume__specifications,
+	.info-resume__license,
+	.info-resume__rights {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+@media (min-width: 768px) {
+
+	.info-resume__description,
+	.info-resume__rights {
+		font-size: 1rem;
+	}
+
+	.info-resume__specifications,
+	.info-resume__license {
+		font-size: 0.9rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.info-resume__section-title h2 {
+		font-size: 2.5rem;
+	}
+
+	.info-resume__description {
+		padding: 30px;
+		font-size: 1.1rem;
+	}
+
+	.info-resume__specifications-license {
+		flex-direction: row;
+	}
+
+	.info-resume__specifications,
+	.info-resume__license {
+		width: 50%;
+		font-size: 1rem;
+	}
+
+	.info-resume__license {
+		margin-left: 0;
+	}
+
+	.info-resume__rights {
+		font-size: 1.1rem;
+	}
+}
+
+@media (min-width: 1200px) {
+
+	.info-resume__description,
+	.info-resume__rights {
+		font-size: 1.2rem;
+	}
+
+	.info-resume__specifications,
+	.info-resume__license {
+		font-size: 1.1rem;
+	}
+}

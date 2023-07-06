@@ -23,6 +23,26 @@
 	width: 100%;
 }
 
+.game-page__resume-section {
+	width: 100vw;
+	margin-top: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 15px;
+}
+
+@media (min-width: 348px) {
+	.game-page__resume-section {
+		margin-top: 320px;
+	}
+}
+
+@media (min-width: 576px) {
+	.game-page__resume-section {
+		width: 90vw;
+	}
+}
+
 @media (min-width: 768px) {
 	.game-page__container {
 		margin-top: 80px;
@@ -44,11 +64,21 @@
 		display: flex;
 		align-items: flex-end;
 	}
+
+	.game-page__resume-section {
+		width: 80vw;
+		margin-top: 180px;
+		padding: 0 35px;
+	}
 }
 
 @media (min-width: 992px) {
 	.game-page__info-card {
 		width: 40%;
+	}
+
+	.game-page__resume-section {
+		width: 70vw;
 	}
 }
 
@@ -56,10 +86,19 @@
 	.game-page__info-card {
 		width: 32%;
 	}
+
+	.game-page__resume-section {
+		width: 60vw;
+		margin-top: 250px;
+	}
 }
 
 @media (min-width: 1400px) {
 	.game-page__info-card {
 		width: 620px;
+	}
+
+	.game-page__resume-section {
+		width: 50vw;
 	}
 }
