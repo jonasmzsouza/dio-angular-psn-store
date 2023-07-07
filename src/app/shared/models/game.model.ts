@@ -1,3 +1,7 @@
+import { Compatibility } from './compatibility.model';
+import { Genre } from './genre.model';
+import { Platform } from './platform.model';
+
 export type Game = {
 	id: number;
 	name: string;
@@ -6,20 +10,11 @@ export type Game = {
 	type: string;
 	price: string;
 	shortDescription: string;
-	release: string,
+	release: string;
 	distributor: string;
 	rights: string;
 	isPreview: boolean;
-	genres: {
-		id: number;
-		name: string;
-	}[];
-	platforms: {
-		id: number;
-		name: string;
-	}[];
-	compatibilities: {
-		id: number;
-		name: string;
-	}[];
+	genres: Genre[];
+	platforms: Platform[];
+	compatibilities: Compatibility[];
 };

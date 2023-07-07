@@ -4,26 +4,24 @@
 	</div>
 	<div class="info-resume__description">
 		<p>
-			Um épico mundo de fantasia sombria onde o destino da terra é decidido
-			pelos poderosos Eikons e os Dominantes que os controlam. Essa é a história
-			de Clive Rosfield, um guerreiro que recebeu o título de "Primeiro Escudo
-			de Rosaria" e jurou proteger seu irmão mais novo, Joshua, o Dominante da
-			Fênix. Em pouco tempo, Clive se envolverá em um grande tragédia e fará um
-			juramento de vingança contra o Eikon Ifrit, uma misteriosa entidade que
-			traz calamidade por onde passa.
+			{{ shortDescription }}
 		</p>
 	</div>
 	<div class="info-resume__specifications-license">
 		<div class="info-resume__specifications">
 			<dl class="specifications__list">
 				<dt>Plataforma:</dt>
-				<dd>PS5</dd>
+				<dd>
+					<span *ngFor="let platform of platforms">{{ platform.name }}, </span>
+				</dd>
 				<dt>Lançamento:</dt>
-				<dd>22/6/2023</dd>
+				<dd>{{ release }}</dd>
 				<dt>Distribuidora:</dt>
-				<dd>SQUARE ENIX CO. LTD.</dd>
+				<dd>{{ distributor }}</dd>
 				<dt>Gênero:</dt>
-				<dd>Ação, RPG</dd>
+				<dd>
+					<span *ngFor="let genre of genres">{{ genre.name }}, </span>
+				</dd>
 			</dl>
 		</div>
 		<div class="info-resume__license">
@@ -48,9 +46,7 @@
 	</div>
 	<div class="info-resume__rights">
 		<p>
-			© 2023 SQUARE ENIX CO., LTD. All Rights Reserved. LOGO ILLUSTRATION:©2020
-			YOSHITAKA AMANO FINAL FANTASY, SQUARE ENIX and their respective logos are
-			trademarks or registered trademarks of Square Enix Holdings Co., Ltd.
+			{{ rights }}
 		</p>
 	</div>
 </div>

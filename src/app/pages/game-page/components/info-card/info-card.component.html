@@ -1,15 +1,15 @@
 <div class="info-card__container">
 	<div class="info-card__title">
-		<h1>FINAL FANTASY XVI</h1>
+		<h1>{{ gameName }}</h1>
 	</div>
 	<div class="info-card__distributor">
-		<span>SQUARE ENIX CO. LTD.</span>
+		<span>{{ distributor }}</span>
 	</div>
 	<div class="info-card__platforms">
-			<span>PS5</span>
+			<span *ngFor="let platform of platforms">{{ platform.name }}</span>
 	</div>
 	<div class="info-card__price">
-		<span>R$349,90</span>
+		<span>{{ price }}</span>
 	</div>
 	<div class="info-card__buttons">
 		<button type="button" class="info-card__button-cart">Adicionar ao carrinho</button>

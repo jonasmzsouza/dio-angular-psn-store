@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Compatibility } from 'src/app/shared/models/compatibility.model';
 
 @Component({
   selector: 'app-info-compatibilities',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./info-compatibilities.component.css']
 })
 export class InfoCompatibilitiesComponent implements OnInit {
+
+	@Input()
+	compatibilities: Compatibility[] = [];
 
   constructor() { }
 

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-background-image',
@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./background-image.component.css']
 })
 export class BackgroundImageComponent implements OnInit {
+
+	@Input()
+	imgBackgroundUrl: string = ''
+
+	@Input()
+	gameName: string = ''
 
   constructor() { }
 

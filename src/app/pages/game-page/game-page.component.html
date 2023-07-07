@@ -1,14 +1,31 @@
 <div class="game-page__container">
 	<div class="game-page__background">
-		<app-background-image></app-background-image>
+		<app-background-image
+			[imgBackgroundUrl]="game.imgBackgroundUrl"
+			[gameName]="game.name"
+		></app-background-image>
 	</div>
 	<div class="game-page__info-section">
-		<app-info-card class="game-page__info-card"></app-info-card>
+		<app-info-card
+			class="game-page__info-card"
+			[gameName]="game.name"
+			[distributor]="game.distributor"
+			[platforms]="game.platforms"
+			[price]="game.price"
+		></app-info-card>
 		<app-info-compatibilities
 			class="game-page__info-compatibilities"
+			[compatibilities]="game.compatibilities"
 		></app-info-compatibilities>
 	</div>
 	<div class="game-page__resume-section">
-		<app-info-resume></app-info-resume>
+		<app-info-resume
+		[shortDescription]="game.shortDescription"
+		[platforms]="game.platforms"
+		[release]="game.release"
+		[distributor]="game.distributor"
+		[genres]="game.genres"
+		[rights]="game.rights"
+		></app-info-resume>
 	</div>
 </div>
