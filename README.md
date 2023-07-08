@@ -26,8 +26,8 @@
 
 ## 💻 About the project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
-This project was developed with Angular as a personal challenge based on the [PlayStation Store](https://store.playstation.com/) layout from the Angular Developer Training at [Digital Innovation One](https://www.dio.me/). Cloud deployment with Netlify.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.<br>
+This project was developed with Angular as a personal challenge based on the [PlayStation Store](https://store.playstation.com/) layout from the Angular Developer Training at [Digital Innovation One](https://www.dio.me/). Cloud deployment with Netlify.<br>
 A PlayStation Store clone web application using Angular properties and directives and touch slider by Swiper.
 
 ---
