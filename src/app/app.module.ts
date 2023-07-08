@@ -8,7 +8,7 @@ import { HomePageModule } from './pages/home-page/home-page.module';
 import { GamePageModule } from './pages/game-page/game-page.module';
 
 import {register} from 'swiper/element/bundle';
-register();
+register(true);
 @NgModule({
   declarations: [
     AppComponent

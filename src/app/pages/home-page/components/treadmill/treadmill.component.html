@@ -19,7 +19,7 @@
 		</div>
 	</div>
 	<div class="treadmill__swiper">
-		<swiper-container appSwiper [config]="config">
+		<swiper-container appSwiper [config]="config" init="false">
 			<swiper-slide *ngFor="let game of games">
 				<app-game-card [game]="game"></app-game-card>
 			</swiper-slide>

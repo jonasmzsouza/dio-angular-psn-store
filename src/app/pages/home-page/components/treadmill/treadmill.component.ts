@@ -1,4 +1,9 @@
-import { Component, CUSTOM_ELEMENTS_SCHEMA, Input, OnInit } from '@angular/core';
+import {
+	Component,
+	CUSTOM_ELEMENTS_SCHEMA,
+	Input,
+	OnInit,
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SwiperOptions } from 'swiper';
 import { SwiperDirective } from '../../directives/swiper.directive';
@@ -20,10 +25,35 @@ export class TreadmillComponent implements OnInit {
 		slidesPerGroup: 2,
 		spaceBetween: 1,
 		centeredSlides: false,
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		},
+		navigation: true,
+		injectStyles: [
+			`
+			:host .swiper-button-next,
+			:host .swiper-button-prev {
+				background-color: #0070cc;
+				color: white;
+				border-radius: 50%;
+				width: 40px;
+				height: 40px;
+			}
+
+			:host .swiper-button-next:after,
+			:host .swiper-button-prev:after {
+				font-size: inherit;
+				font-weight: 700;
+			}
+
+			:host .swiper-button-next:hover,
+			:host .swiper-button-prev:hover {
+				background-color: #004c8a;
+			}
+
+			:host .swiper-button-next.swiper-button-disabled,
+			:host .swiper-button-prev.swiper-button-disabled {
+				display: none;
+		}
+		`,
+		],
 		breakpoints: {
 			280: {
 				slidesPerView: 2,
