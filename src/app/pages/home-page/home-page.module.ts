@@ -4,7 +4,7 @@ import { PreviewComponent } from './components/preview/preview.component';
 import { TreadmillComponent } from './components/treadmill/treadmill.component';
 import { GameCardComponent } from './components/game-card/game-card.component';
 import { HomePageComponent } from './home-page.component';
-import { ButtonComponent } from './components/button/button.component';
+import { ButtonComponent } from './components/button/button.component';;
 
 
 @NgModule({

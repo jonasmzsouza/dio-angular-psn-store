@@ -59,7 +59,7 @@ export const GamesMock: Game[] = [
 		distributor: 'Blizzard Entertainment, Inc.',
 		rights:
 			'© 2023 Blizzard Entertainment, Inc., Diablo, Diablo Immortal, World of Warcraft e Blizzard Entertainment são marcas comerciais ou marcas registradas da Blizzard Entertainment, Inc. nos EUA e/ou em outros países. Todos os direitos reservados.',
-		isPreview: false,
+		isPreview: true,
 		genres: [
 			{
 				id: 1,
@@ -145,7 +145,7 @@ export const GamesMock: Game[] = [
 		distributor: 'Electronic Arts Inc',
 		rights:
 			'Jogo F1® 23 - um produto oficial do FIA Formula One World Championship. © 2023 Electronic Arts Inc. EA, EA SPORTS, o logotipo EA SPORTS, Codemasters e o logotipo Codemasters são marcas comerciais da Electronic Arts Inc.',
-		isPreview: false,
+		isPreview: true,
 		genres: [
 			{
 				id: 1,

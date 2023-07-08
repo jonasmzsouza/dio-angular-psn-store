@@ -1,13 +1,14 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Game } from 'src/app/shared/models/game.model';
+import { RouterModule } from '@angular/router';
 
 @Component({
 	selector: 'app-game-card',
 	templateUrl: './game-card.component.html',
 	styleUrls: ['./game-card.component.css'],
 	standalone: true,
-	imports: [CommonModule]
+	imports: [CommonModule, RouterModule]
 })
 export class GameCardComponent implements OnInit {
 

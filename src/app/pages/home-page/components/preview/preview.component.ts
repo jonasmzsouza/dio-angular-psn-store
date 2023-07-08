@@ -11,8 +11,15 @@ export class PreviewComponent implements OnInit {
 	games: Game[] = [];
 
 	isEnableBody: boolean = false;
+	showButton: boolean = true;
+	preview: string = 'preview__item';
 
 	constructor() {}
 
 	ngOnInit(): void {}
+
+	showItens(show: string) {
+		this.preview = show;
+		this.showButton = !this.showButton;
+	}
 }

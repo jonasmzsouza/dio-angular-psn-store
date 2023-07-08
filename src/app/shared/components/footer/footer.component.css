@@ -17,6 +17,7 @@
 .footer__brand {
 	margin: 20px auto;
 	width: 60px;
+	z-index: 2;
 }
 
 .footer__brand img {

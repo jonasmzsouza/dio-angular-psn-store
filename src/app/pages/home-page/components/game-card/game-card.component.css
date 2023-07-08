@@ -8,7 +8,6 @@
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	cursor: pointer;
 }
 
 .game-card__cover {
@@ -28,6 +27,10 @@
 .game-card__cover img {
 	width: 100%;
 	border-radius: 6px;
+}
+
+.game-card__container a:hover .game-card__cover img,
+.game-card__cover img {
 	-webkit-transition: -webkit-transform 0.5s;
 	transition: -webkit-transform 0.5s;
 	-o-transition: transform 0.5s;
@@ -35,6 +38,7 @@
 	transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
+.game-card__container a:hover .game-card__cover img,
 .game-card__cover img:hover {
 	filter: brightness(90%);
 	-webkit-filter: brightness(90%);
@@ -105,11 +109,13 @@
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 2;
 	word-wrap: break-word;
+	color: black;
 	font-size: 0.9rem;
 	font-weight: 400;
 }
 
 .game-card__body__price span {
+	color: black;
 	font-size: 1rem;
 }
 

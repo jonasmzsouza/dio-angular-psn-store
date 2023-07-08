@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { GamesMock } from 'src/app/mocks/games.mock';
 import { Game } from 'src/app/shared/models/game.model';
-import { Genre } from 'src/app/shared/models/genre.model';
 
 @Component({
 	selector: 'app-game-page',
