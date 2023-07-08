@@ -562,7 +562,7 @@ export const GamesMock: Game[] = [
 		imgCoverUrl:
 			'https://image.api.playstation.com/vulcan/ap/rnd/202305/2409/759228d1e3274b6d9632272f5aa7c4dfa19a9a51652e2e5b.png?w=440&thumb=false',
 		imgBackgroundUrl:
-			'https://image.api.playstation.com/vulcan/ap/rnd/202304/2714/92a7017693d8155b2838cb6cf7ec19320dc563bf059b8547.jpg?w=1920&thumb=false',
+			'https://image.api.playstation.com/vulcan/ap/rnd/202305/2409/f7884bbbe348d863f7920ae994125bdb931118f1cf99f5e5.jpg?w=1920&thumb=false',
 		type: 'PRE-ORDER',
 		price: 'R$249,50',
 		shortDescription:
